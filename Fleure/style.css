@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+}
+.section{
+    padding: 200px, 12%;
+}
+.flex{
+    display: flex;
+}
+.button {
+    transition-duration: 0.4s;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #c4aa63;
+  }
+.button:hover {
+    background-color: #f0d99b; 
+    color:  #ffffff;
+}
+.navbar{
+    padding: 20px 12%;
+    background-color: #8f7f53;
+}
+.bar{
+    flex: 1;
+    text-align: right;
+}
+.bar> ul> il> a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+.bar> ul> il>a:hover{
+    color:  #ffffff;
+    transition-duration: 0.4s;
+}
+.hero{
+    background-image: url(https://media.istockphoto.com/photos/round-stylish-ceramic-vase-with-dried-flower-lagurus-picture-id1300939276?b=1&k=20&m=1300939276&s=170667a&w=0&h=ikXpA3cOoKoHpBGAMgPiJ3z5rojIylRYuvoElPEHx7I=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0px;
+}
+.text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.text>h1, h4, button{
+    margin-bottom: 20px;
+}
+.service{
+    background-color: #eadcb8;
+    padding: 30px 0px;
+    text-align: center;
+}
+.service>h4{
+    color: #8f7f53;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://i.pinimg.com/originals/ab/18/dc/ab18dccbc2f5e56e775805fc3a78f314.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10rem 10rem 0 0;
+    margin: auto;
+}
+.about{
+    padding: 100px 12%;
+    background-color: #eadcb8;
+}
+.box1{
+    flex: 1;
+}
+.kutija{
+    width: 300px;
+    height: 100px;
+    background-color: #cdb87d;
+    padding: 10px 0px;
+    text-align: center;
+    position: relative;
+    left: 42px;
+}
+.tekst{
+    flex: 2;
+    margin: 30px;
+}
+.tekst>p{
+    margin-bottom: 30px;
+}
+.image{
+    flex: 1;
+    width: 100px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 0 0 10rem 10rem;
+    background-image: url(https://i.pinimg.com/originals/58/94/05/5894050bcc8ae78110b73a8f0e53f574.jpg);
+    background-size: cover;
+    position: relative;
+    top: -100px;
+}
+.sekcija{
+    padding: 100px 12%;
+}
+.service1{
+    background-color: #cdb87d;
+    padding: 30px 0px;
+    text-align: center;
+}
+.service1>h4{
+    color: #8f7f53;
+}
+.pravougaonik{
+    width: 300px;
+    height: 250px;
+    background-image: url(https://i.pinimg.com/originals/6d/bd/10/6dbd1072b7504644c0befa5c5b5c4284.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    margin: 5px;
+}
+.cards{
+    padding: 50px 12%;
+    background-color: #cdb87d;
+}
+.footer{
+    padding: 200px 0px;
+    padding-bottom: 0px;
+    background-color: #eadcb8;
+}
+.polukrug{
+    height: 300px;
+    width: 500px;
+    background-color: #cdb87d;
+    border: 1px solid transparent;
+    border-radius: 10rem 10rem 0 0;
+    margin: auto;
+}
+.polukrug> .in{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.footer .polukrug .in h3{
+    margin-bottom: 10px;
+}
+.footer .polukrug .in .button{
+    margin-top: 10px;
+}

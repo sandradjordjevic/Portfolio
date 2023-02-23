@@ -1,0 +1,144 @@
+.header{
+    background-color: #556E69;
+}
+.background{
+    background-color: #556E69;
+}
+.header h1, h4, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header a{
+    color: #7b9691;
+}
+.header a:hover{
+    color: white;
+    transition: 0.4s;
+}
+.hero p{
+    color: #7b9691;
+}
+.button-1{
+    border: 2px white solid;
+    border-radius: 30px;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-1:hover{
+    text-decoration: none;
+    background-color: white;
+    transition: 0.4s;
+    color:  #556E69;
+}
+.button-2{
+    border: 2px white solid;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #556E69;
+    cursor: pointer;
+}
+.button-2:hover{
+    text-decoration: none;
+    background-color: transparent;
+    transition: 0.4s;
+    color: white;
+}
+.slika{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./image/creme.png);
+    position: absolute;
+    bottom: -100px;
+    height: 450px;
+    width: 480px;
+    filter: drop-shadow(0px 4px 4px #000);
+}
+.ingredients{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ingredients h2{
+    color: #7b9691;
+    text-align: center;
+}
+.ingredients h6{
+    color: #556E69;
+}
+.ingredients h5{
+    color: #7b9691;
+}
+.ingredientsimg{
+    background-image: url(https://www.beautyindependent.com/wp-content/uploads/2019/07/Wolf-Project-4-1024x920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 422.4px;
+}
+.background1{
+    background-color: #8BBEB7;
+}
+.product{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slika1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./image/product.png);
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    bottom: -50px;
+}
+.products{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.products h2{
+    color: #7b9691;
+    text-align: center;
+}
+.image1{
+    opacity: 30%;
+}
+.medium{
+    position: absolute;
+    bottom: 50%;
+    left: 125px;
+    color: #556E69;
+}
+.people{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.people h2{
+    color: #7b9691;
+    text-align: center;
+}
+.women{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.people h6{
+    color: #556E69;
+    text-align: center;
+}
+.description {
+    color: #7b9691;
+}
+.background2{
+    background-color: #cecece;
+}
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #7b9691;
+    text-decoration: none;
+    transition: 0.4s;
+}

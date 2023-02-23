@@ -1,0 +1,302 @@
+.background{
+    background-image: url(https://images.unsplash.com/photo-1562050344-f7ad946cee35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGlubmVyJTIwdGFibGV8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    letter-spacing: -5px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+.hero a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 2px;
+}
+.hero a:hover{
+    color: #F2C574;
+    border-bottom: 2px solid #F2C574;
+    transition: 0.2s;
+}
+.hero h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+.text> p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+.button{
+    color: #232323;
+    background-color: #F2C574;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.button:hover{
+    transition: 0.2s;
+    background-color: #e9c685;
+    cursor: pointer;
+}
+.background2{
+    background-color: #232323;
+}
+.image1background{
+    background-image: url(https://www.filminserbia.com/wp-content/uploads/2021/08/Restoran-nebo-i-zemlja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+.image1background1{
+    background-image: url(https://www.medoc-atlantique.com/wp-content/uploads/2019/02/restaurant-1600x900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+.image1background2{
+    background-image: url(https://www.wildrose-district.com/wp-content/uploads/2018/09/iStock-868935172.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+.image1background3{
+    background-image: url(https://www.rokselana.com/wp-content/uploads/2016/05/restaurant-939435_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+
+}
+.story h2{
+    color: #F2C574;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.more a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.more a:hover{
+    transition: 0.2s;
+    color: #F2C574;
+    border-bottom: #F2C574 2px solid;
+}
+.more p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards h2{
+    color: #F2C574;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card1{
+    background-image: url(https://www.anotherfoodblogger.com/wp-content/uploads/2019/11/DSC_4826-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.card2{
+    background-image: url(https://www.saveur.com/uploads/2019/01/30/MHWKLENRKFK2X5ERAH5S2LI73I.jpg?auto=webp&width=1440&height=1080);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.card3{
+    background-image: url(https://s7d2.scene7.com/is/image/ritzcarlton/Huevos%20Rancheros%204?$XlargeViewport100pct$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.card{
+    border: transparent;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+.background3{
+    background-color: #393939;
+}
+.name{
+    color: white;
+    font-weight: bold;
+}
+.order{
+    color: #F2C574;
+    font-weight: bold;
+}
+.order:hover{
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.2s;
+    cursor: pointer;
+    border: none;
+}
+.order p{
+    margin: 0px;
+}
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+    color: white;
+}
+.image4{
+    background-image: url(https://10619-2.s.cdn12.com/rests/original/405_503574372.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.background4{
+    background-color: #0A0A0A;
+}
+.what h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.img1,
+.img2, .img3{
+    -webkit-filter: brightness(20%);
+    filter:brightness(20%);
+}
+.carousel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.item img {
+    width: 100%;
+    height: auto
+  }
+
+
+  ol.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+  
+  ol.carousel-indicators li,
+  ol.carousel-indicators li.active {
+    float: left;
+    width: 33%;
+    height: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+  }
+  
+  ol.carousel-indicators li.active {
+    background: #F2C574;
+  }
+  .chefs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .chefs h2{
+    color: #F2C574;
+  }
+  .chef1{
+    background-image: url(https://www.starsbeoriginal.com/templates/yootheme/cache/chef-1-58da4be3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+  .chef2{
+    background-image: url(https://www.escoffier.edu/wp-content/uploads/2016/02/Smiling-female-chef-with-white-hat-and-uniform-in-a-kitchen-e1611773135718.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+  .chef3{
+    background-image: url(https://i0.wp.com/chefschool.ca/wp-content/uploads/2018/12/sous.jpg?w=1200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+  .chefs h6{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .chefs p{
+    color: white;
+    margin: 0px;
+  }
+  .gallery{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .food1{
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2022%2F03%2F16%2FKFC-Tasting-Menu-FT-BLOG0322.jpg&q=60);
+    height: 500px;
+    background-size: cover;
+}
+.food2{
+    background-image: url(https://cdn.londonandpartners.com/assets/attractions/eat/46104-640x360-spaghetti-house-spag-bol-640.jpg);
+    height: 250px;
+    background-size: cover;
+
+}
+.food3{
+    background-image: url(https://www.mashed.com/img/gallery/chain-restaurant-desserts-you-need-to-try-at-least-once/chilis-molten-lava-cake-1633030466.jpg);
+    height: 250px;
+    background-size: cover;
+}
+.food4{
+    background-image: url(https://rodizio.rs/wp-content/uploads/2022/04/gallery_03.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background5{
+    background-color: #161616;
+}
+.form-control{
+    background-color: transparent;
+}
+.btn{
+    background-color: #F2C574;
+    color: #161616;
+}
+.btn:hover{
+    transition: 0.2s;
+    background-color: #e9c685;
+    cursor: pointer;
+}
+.footer h3{
+    color: #ffffff;
+    letter-spacing: -3px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: #e9c685;
+    transition: 0.2s;
+}
+.dugme{
+    background-color: #393939;
+    color: #ffffff;
+    padding: 6px 12px;
+    width: 400px;
+}
+.footerbtn{
+    width: 600px;
+}

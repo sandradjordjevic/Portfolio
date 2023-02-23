@@ -1,0 +1,115 @@
+.slika1{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+.logo{
+    margin: auto;
+}
+  .background-image{
+    background-image: url(./image/museum.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.nav h1{ 
+    margin-left: 100px;
+}
+.naslov{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+  color: rgb(165, 91, 38);
+}
+.button{
+  background-color: transparent;
+  color: rgb(165, 91, 38);
+  border: 1px solid rgb(165, 91, 38);
+  text-decoration: none;
+  padding: 5px 15px;
+}
+.button:hover{
+  transition: 0.2s;
+  color: white;
+  border: 1px solid white;
+}
+.dugme{ 
+  background-color: transparent;
+  color: rgb(165, 91, 38);
+  border: 1px solid rgb(165, 91, 38);
+  text-decoration: none;
+  padding: 5px 15px;
+}
+.dugme:hover{
+  transition: 0.2s;
+  color: white;
+  border: 1px solid white;
+}
+.sculpture{
+ background-image: url(https://www.italymagazine.com/sites/default/files/2021-09/bg-mose.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.background{
+background-color: rgba(34,34,34,255);
+}
+.container h2{
+  color: rgb(165, 91, 38);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.background2{
+  background-color: rgba(40,40,40,255);
+}
+.hero h3 p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero2{
+  -webkit-box-shadow: 6px 0px 13px 1px #000000; 
+  box-shadow: 6px 0px 13px 1px #000000;
+}
+.heroimg{
+  background-image: url(https://i.pinimg.com/564x/20/81/e3/2081e385140b3f551d186b0f84fec11c.jpg);
+  height: 400px;
+  background-size: cover;
+  margin: auto;
+}
+.about h6{
+  color: rgb(165, 91, 38);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blog h4 p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blog hr{
+  width: 100px;
+  background-color: white;}
+* h2{
+  color: rgb(165, 91, 38);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.orange{
+  color: rgb(165, 91, 38);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+textarea{
+  width: 220px;
+  height: 30px;
+  background-color: rgba(34,34,34,255);
+  border: transparent;
+}
+textarea::placeholder{
+  text-align: center;
+}
+.angel{
+  background-image: url(https://i.pinimg.com/564x/6e/3b/85/6e3b85ac1f573c9feb517732f4cf9166.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 389px;
+}
+.hands{
+  background-image: url(https://i.pinimg.com/564x/ce/38/8d/ce388d83663b552242f1fd0048429b88.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 389px;
+}

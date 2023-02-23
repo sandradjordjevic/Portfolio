@@ -1,0 +1,177 @@
+.logo{
+    background-image: url(./images/LoGo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+}
+.nav a{
+    color:#545456;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav a:hover{
+    transition: 0.2s;
+    color: #aeaeb1;;
+}
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about h1{
+    color:#545456;
+}
+.about p{
+    color:#545456;
+}
+.image{
+    background-image: url(./images/Capture1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.button{
+    border: 1px  #545456 solid;
+    padding: 10px 15px;
+    color: #545456;
+    position: relative;
+}
+.button:hover{
+    background-color:#545456;
+    color: white;
+    transition: 0.2s;
+}
+.image0{
+    padding-bottom: 15px;
+}
+.about h3{
+    color: #545456;
+}
+.projects{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects h2{
+    color: #545456;
+}
+.image1{
+    background-image: url(./images/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.558);
+    color: white;
+    transition: 0.2s;
+    opacity: 0;
+    cursor: pointer;
+}
+.hover:hover{
+    opacity: 1;
+    transition: 0.3;
+}
+.image2{
+    background-image: url(./images/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+}
+.image3{
+    background-image: url(./images/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+}
+.image4{
+    background-image: url(./images/image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+}
+.image5{
+    background-image: url(./images/image5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+}
+.imagedown{
+    position: relative;
+    top: 300px;
+}
+.texttop{
+   position: relative;
+   top: 40%;
+   text-align: center;
+   overflow: hidden;
+   transition: 0.3s;
+}
+.textbottom{
+    position: relative;
+    top: 45%;
+    text-align: center;
+    left: 5%;
+}
+.button1{
+    border: 1px  #ffffff solid;
+    padding: 10px 15px;
+    color: #ffffff;
+    position: relative;
+}
+.button1:hover{
+    border: #545456 1px solid;
+    background-color: #545456;
+    color: white;
+    transition: 0.2s;
+}
+.texttop1{
+    position: relative;
+    top: 25%;
+    text-align: center;
+    overflow: hidden;
+    transform: translateY(20px);
+    transition: 0.3s;
+ }
+ .textbottom1{
+     position: relative;
+     top: 30%;
+     text-align: center;
+     left: 5%;
+ }
+  .contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+ .background{
+    background-color: #2a2a2a;
+ }
+ .logo1{
+    background-image: url(./images/L\ O\ G\ O.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+ }
+ .instagram{
+    padding: 5px;
+    border-radius: 100%;
+    background-color:  #868484;
+ }
+ .instagram1{
+    padding: 8px;
+    border-radius: 100%;
+    background-color:  #868484;
+ }
+.social i{
+    color: white;
+}
+.social i:hover{
+    color: #2a2a2a;
+    transition: 0.3s;
+}
+ .color{
+    color: #868484;
+ }
+ 

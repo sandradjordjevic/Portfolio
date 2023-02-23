@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.h {
+    box-shadow: inset 0 0 0 0 #81d0ed;
+    color: #81d0ed;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .h:hover {
+    box-shadow: inset 100px 0 0 0 #81d0ed;
+    color: white;
+  }
+.background{
+    background-image: url(https://churchillsquareconsulting.com/wp-content/uploads/2020/04/960x0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.but {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor:pointer;
+    overflow: hidden;        
+}
+.card img{
+  min-height: 100px;
+}
